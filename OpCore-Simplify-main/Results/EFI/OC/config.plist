@@ -163,22 +163,46 @@
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
-				<key>AAPL,ig-platform-id</key>
-				<data>
-				AAASGQ==
-				</data>
-				<key>framebuffer-fbmem</key>
-				<data>
-				AACQAA==
-				</data>
-				<key>framebuffer-patch-enable</key>
-				<data>
-				AQAAAA==
-				</data>
-				<key>framebuffer-stolenmem</key>
-				<data>
-				AAAwAQ==
-				</data>
+					<key>AAPL,ig-platform-id</key>
+					<data>
+					AAASGQ==
+					</data>
+					<key>complete-modeset</key>
+					<data>
+					AQAAAA==
+					</data>
+					<key>enable-hdmi-dividers-fix</key>
+					<data>
+					AQAAAA==
+					</data>
+					<key>framebuffer-fbmem</key>
+					<data>
+					AACQAA==
+					</data>
+					<key>framebuffer-patch-enable</key>
+					<data>
+					AQAAAA==
+					</data>
+					<key>framebuffer-con1-enable</key>
+					<data>
+					AQAAAA==
+					</data>
+					<key>framebuffer-con1-type</key>
+					<data>
+					AAgAAA==
+					</data>
+					<key>framebuffer-con2-enable</key>
+					<data>
+					AQAAAA==
+					</data>
+					<key>framebuffer-con2-type</key>
+					<data>
+					AAgAAA==
+					</data>
+					<key>framebuffer-stolenmem</key>
+					<data>
+					AAAwAQ==
+					</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -656,7 +680,7 @@
 				AAAAAAAAAAAAAAAAAAA=
 				</data>
 				<key>boot-args</key>
-				<string>-v debug=0x100 keepsyms=1 igfxonln=1 igfxagdc=0</string>
+					<string>-v debug=0x100 keepsyms=1 igfxonln=1 igfxagdc=0 -cdfon</string>
 				<key>csr-active-config</key>
 				<data>
 				AwoAAA==
