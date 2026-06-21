@@ -136,6 +136,10 @@
 				<data>
 				AAASGQ==
 				</data>
+				<key>complete-modeset</key>
+				<data>
+				AQAAAA==
+				</data>
 				<key>enable-hdmi-dividers-fix</key>
 				<data>
 				AQAAAA==
@@ -536,21 +540,21 @@
 		<key>Debug</key>
 		<dict>
 			<key>AppleDebug</key>
-			<false/>
+			<true/>
 			<key>ApplePanic</key>
-			<false/>
+			<true/>
 			<key>DisableWatchDog</key>
 			<true/>
 			<key>DisplayDelay</key>
 			<integer>0</integer>
 			<key>DisplayLevel</key>
-			<integer>2147483650</integer>
+			<integer>2147483714</integer>
 			<key>LogModules</key>
 			<string>*</string>
 			<key>SysReport</key>
 			<false/>
 			<key>Target</key>
-			<integer>3</integer>
+			<integer>67</integer>
 		</dict>
 		<key>Entries</key>
 		<array/>
@@ -629,7 +633,7 @@
 				AAAAAAAAAAAAAAAAAAA=
 				</data>
 				<key>boot-args</key>
-				<string>-v debug=0x100 keepsyms=1 ipc_control_port_options=0</string>
+				<string>-v debug=0x100 keepsyms=1 ipc_control_port_options=0 igfxonln=1 igfxagdc=0</string>
 				<key>csr-active-config</key>
 				<data>
 				AwgAAA==
